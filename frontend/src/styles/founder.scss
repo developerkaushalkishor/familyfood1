@@ -1,0 +1,34 @@
+@import "colors";
+
+.founder {
+  width: 100%;
+  height: 80vh;
+  background-color: $red;
+
+  div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $pink;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+
+    img {
+      border-radius: 100%;
+    }
+    h3 {
+      font-size: 1.3rem;
+      padding: 2rem 0 0.5rem 0;
+    }
+    p {
+      letter-spacing: 3px;
+      font-size: 0.8rem;
+      margin-top: 0.25rem;
+      font-family: "Tenor Sans", sans-serif;
+      line-height: 1.2;
+    }
+  }
+}
